@@ -1,5 +1,5 @@
 {
-    "name": "@pulumiverse/unifi",
+    "name": "@maienm/pulumi-unifi",
     "version": "${VERSION}",
     "description": "A Pulumi package for creating and managing Unifi network resources.",
     "keywords": [

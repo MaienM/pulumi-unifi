@@ -11,7 +11,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as unifi from "@pulumiverse/unifi";
+ * import * as unifi from "@maienm/pulumi-unifi";
  *
  * const test = new unifi.DynamicDNS("test", {
  *     service: "dyndns",

@@ -4,7 +4,8 @@ go 1.19
 
 replace (
 	github.com/hashicorp/go-getter v1.5.0 => github.com/hashicorp/go-getter v1.4.0
-	github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20220824175045-450992f2f5b9
+	github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20230327102345-3fa930f86570
+	github.com/paultyng/terraform-provider-unifi => github.com/maienm/terraform-provider-unifi v0.41.1000
 	github.com/paultyng/terraform-provider-unifi/shim => ./shim
 )
 
@@ -37,8 +38,8 @@ require (
 	github.com/Masterminds/semver/v3 v3.2.0 // indirect
 	github.com/Masterminds/sprig/v3 v3.2.2 // indirect
 	github.com/Microsoft/go-winio v0.6.0 // indirect
-	github.com/ProtonMail/go-crypto v0.0.0-20221026131551-cf6655e29de4 // indirect
-	github.com/acomagu/bufpipe v1.0.3 // indirect
+	github.com/ProtonMail/go-crypto v0.0.0-20230217124315-7d5c6f04bbb8 // indirect
+	github.com/acomagu/bufpipe v1.0.4 // indirect
 	github.com/aead/chacha20 v0.0.0-20180709150244-8b13a72661da // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/apparentlymart/go-cidr v1.1.0 // indirect
@@ -78,11 +79,11 @@ require (
 	github.com/edsrzf/mmap-go v1.1.0 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/ettle/strcase v0.1.1 // indirect
-	github.com/fatih/color v1.14.1 // indirect
+	github.com/fatih/color v1.15.0 // indirect
 	github.com/gedex/inflector v0.0.0-20170307190818-16278e9db813 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
-	github.com/go-git/go-billy/v5 v5.4.0 // indirect
-	github.com/go-git/go-git/v5 v5.6.0 // indirect
+	github.com/go-git/go-billy/v5 v5.4.1 // indirect
+	github.com/go-git/go-git/v5 v5.6.1 // indirect
 	github.com/gofrs/uuid v4.2.0+incompatible // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang-jwt/jwt/v4 v4.4.3 // indirect
@@ -100,11 +101,10 @@ require (
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/grpc-ecosystem/grpc-opentracing v0.0.0-20180507213350-8e809c8a8645 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
-	github.com/hashicorp/go-checkpoint v0.5.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-cty v1.4.1-0.20200414143053-d3edf31b6320 // indirect
 	github.com/hashicorp/go-getter v1.7.1 // indirect
-	github.com/hashicorp/go-hclog v1.4.0 // indirect
+	github.com/hashicorp/go-hclog v1.5.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.3.1 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/hashicorp/go-plugin v1.4.8 // indirect
@@ -118,19 +118,14 @@ require (
 	github.com/hashicorp/go-uuid v1.0.3 // indirect
 	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
-	github.com/hashicorp/hc-install v0.5.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.16.2 // indirect
 	github.com/hashicorp/hil v0.0.0-20190212132231-97b3a9cdfa93 // indirect
 	github.com/hashicorp/logutils v1.0.0 // indirect
-	github.com/hashicorp/terraform-exec v0.18.1 // indirect
-	github.com/hashicorp/terraform-json v0.15.0 // indirect
 	github.com/hashicorp/terraform-plugin-go v0.14.3 // indirect
 	github.com/hashicorp/terraform-plugin-log v0.8.0 // indirect
 	github.com/hashicorp/terraform-plugin-sdk v1.9.1 // indirect
-	github.com/hashicorp/terraform-plugin-sdk/v2 v2.25.0 // indirect
-	github.com/hashicorp/terraform-plugin-testing v1.1.0 // indirect
-	github.com/hashicorp/terraform-registry-address v0.1.0 // indirect
+	github.com/hashicorp/terraform-plugin-sdk/v2 v2.26.1 // indirect
 	github.com/hashicorp/terraform-svchost v0.0.0-20200729002733-f050f53b9734 // indirect
 	github.com/hashicorp/vault/api v1.8.2 // indirect
 	github.com/hashicorp/vault/sdk v0.6.1 // indirect
@@ -138,7 +133,7 @@ require (
 	github.com/huandu/xstrings v1.3.2 // indirect
 	github.com/iancoleman/strcase v0.2.0 // indirect
 	github.com/ijc/Gotty v0.0.0-20170406111628-a8b993ba6abd // indirect
-	github.com/imdario/mergo v0.3.13 // indirect
+	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
@@ -198,7 +193,7 @@ require (
 	github.com/spf13/cast v1.5.0 // indirect
 	github.com/spf13/cobra v1.7.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	github.com/stretchr/testify v1.8.2 // indirect
+	github.com/stretchr/testify v1.8.4 // indirect
 	github.com/texttheater/golang-levenshtein v1.0.1 // indirect
 	github.com/tweekmonster/luser v0.0.0-20161003172636-3fa38070dbd7 // indirect
 	github.com/uber/jaeger-client-go v2.30.0+incompatible // indirect
@@ -211,21 +206,21 @@ require (
 	github.com/xeipuuv/gojsonpointer v0.0.0-20190905194746-02993c407bfb // indirect
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xeipuuv/gojsonschema v1.2.0 // indirect
-	github.com/zclconf/go-cty v1.13.1 // indirect
+	github.com/zclconf/go-cty v1.13.2 // indirect
 	go.opencensus.io v0.24.0 // indirect
 	go.uber.org/atomic v1.10.0 // indirect
 	gocloud.dev v0.28.0 // indirect
 	gocloud.dev/secrets/hashivault v0.27.0 // indirect
-	golang.org/x/crypto v0.6.0 // indirect
+	golang.org/x/crypto v0.9.0 // indirect
 	golang.org/x/mod v0.10.0 // indirect
-	golang.org/x/net v0.8.0 // indirect
+	golang.org/x/net v0.10.0 // indirect
 	golang.org/x/oauth2 v0.4.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.6.0 // indirect
-	golang.org/x/term v0.6.0 // indirect
-	golang.org/x/text v0.8.0 // indirect
+	golang.org/x/sync v0.2.0 // indirect
+	golang.org/x/sys v0.8.0 // indirect
+	golang.org/x/term v0.8.0 // indirect
+	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
-	golang.org/x/tools v0.6.0 // indirect
+	golang.org/x/tools v0.9.3 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/api v0.107.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect

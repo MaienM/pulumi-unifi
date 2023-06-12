@@ -11,7 +11,7 @@ import * as utilities from "../utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as unifi from "@pulumiverse/unifi";
+ * import * as unifi from "@maienm/pulumi-unifi";
  *
  * const wifi = new unifi.iam.Group("wifi", {
  *     qosRateMaxDown: 2000,

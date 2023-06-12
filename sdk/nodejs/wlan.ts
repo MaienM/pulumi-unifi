@@ -13,8 +13,8 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
+ * import * as unifi from "@maienm/pulumi-unifi";
  * import * as unifi from "@pulumi/unifi";
- * import * as unifi from "@pulumiverse/unifi";
  *
  * const config = new pulumi.Config();
  * const vlanId = config.getNumber("vlanId") || 10;

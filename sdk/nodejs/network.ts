@@ -11,7 +11,7 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
- * import * as unifi from "@pulumiverse/unifi";
+ * import * as unifi from "@maienm/pulumi-unifi";
  *
  * const config = new pulumi.Config();
  * const vlanId = config.getNumber("vlanId") || 10;
@@ -90,6 +90,10 @@ export class Network extends pulumi.CustomResource {
      * Specifies whether DHCP is enabled or not on this network.
      */
     public readonly dhcpEnabled!: pulumi.Output<boolean | undefined>;
+    /**
+     * Specifies the IPv4 addresses of trusted DHCP servers. Leave blank to disable this feature.
+     */
+    public readonly dhcpGuards!: pulumi.Output<string[] | undefined>;
     /**
      * Specifies the lease time for DHCP addresses in seconds. Defaults to `86400`.
      */
@@ -298,6 +302,7 @@ export class Network extends pulumi.CustomResource {
             const state = argsOrState as NetworkState | undefined;
             resourceInputs["dhcpDns"] = state ? state.dhcpDns : undefined;
             resourceInputs["dhcpEnabled"] = state ? state.dhcpEnabled : undefined;
+            resourceInputs["dhcpGuards"] = state ? state.dhcpGuards : undefined;
             resourceInputs["dhcpLease"] = state ? state.dhcpLease : undefined;
             resourceInputs["dhcpRelayEnabled"] = state ? state.dhcpRelayEnabled : undefined;
             resourceInputs["dhcpStart"] = state ? state.dhcpStart : undefined;
@@ -353,6 +358,7 @@ export class Network extends pulumi.CustomResource {
             }
             resourceInputs["dhcpDns"] = args ? args.dhcpDns : undefined;
             resourceInputs["dhcpEnabled"] = args ? args.dhcpEnabled : undefined;
+            resourceInputs["dhcpGuards"] = args ? args.dhcpGuards : undefined;
             resourceInputs["dhcpLease"] = args ? args.dhcpLease : undefined;
             resourceInputs["dhcpRelayEnabled"] = args ? args.dhcpRelayEnabled : undefined;
             resourceInputs["dhcpStart"] = args ? args.dhcpStart : undefined;
@@ -419,6 +425,10 @@ export interface NetworkState {
      * Specifies whether DHCP is enabled or not on this network.
      */
     dhcpEnabled?: pulumi.Input<boolean>;
+    /**
+     * Specifies the IPv4 addresses of trusted DHCP servers. Leave blank to disable this feature.
+     */
+    dhcpGuards?: pulumi.Input<pulumi.Input<string>[]>;
     /**
      * Specifies the lease time for DHCP addresses in seconds. Defaults to `86400`.
      */
@@ -625,6 +635,10 @@ export interface NetworkArgs {
      * Specifies whether DHCP is enabled or not on this network.
      */
     dhcpEnabled?: pulumi.Input<boolean>;
+    /**
+     * Specifies the IPv4 addresses of trusted DHCP servers. Leave blank to disable this feature.
+     */
+    dhcpGuards?: pulumi.Input<pulumi.Input<string>[]>;
     /**
      * Specifies the lease time for DHCP addresses in seconds. Defaults to `86400`.
      */

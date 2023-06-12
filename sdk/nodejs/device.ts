@@ -11,8 +11,8 @@ import * as utilities from "./utilities";
  *
  * ```typescript
  * import * as pulumi from "@pulumi/pulumi";
+ * import * as unifi from "@maienm/pulumi-unifi";
  * import * as unifi from "@pulumi/unifi";
- * import * as unifi from "@pulumiverse/unifi";
  *
  * const disabled = unifi.port.getProfile({
  *     name: "Disabled",
