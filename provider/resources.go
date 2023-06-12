@@ -181,7 +181,7 @@ func Provider() tfbridge.ProviderInfo {
 			"unifi_user_group":     {Tok: unifiDataSource(iamMod, "getGroup")},
 		},
 		JavaScript: &tfbridge.JavaScriptInfo{
-			PackageName: "@pulumiverse/unifi",
+			PackageName: "@maienm/pulumi-unifi",
 			// List any npm dependencies and their versions
 			Dependencies: map[string]string{
 				"@pulumi/pulumi": "^3.0.0",
