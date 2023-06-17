@@ -7,8 +7,8 @@
         "unifi",
         "category/network"
     ],
-    "homepage": "https://github.com/pulumiverse",
-    "repository": "https://github.com/pulumiverse/pulumi-unifi",
+    "homepage": "https://github.com/MaienM/pulumi-unifi",
+    "repository": "https://github.com/MaienM/pulumi-unifi",
     "license": "Apache-2.0",
     "scripts": {
         "build": "tsc",
@@ -25,6 +25,6 @@
     "pulumi": {
         "resource": true,
         "name": "unifi",
-        "server": "github://api.github.com/pulumiverse"
+        "server": "github://api.github.com/MaienM/pulumi-unifi"
     }
 }

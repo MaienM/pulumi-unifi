@@ -7,12 +7,12 @@
         "unifi",
         "category/network"
     ],
-    "homepage": "https://github.com/pulumiverse",
+    "homepage": "https://github.com/MaienM/pulumi-unifi",
     "license": "Apache-2.0",
     "attribution": "This Pulumi package is based on the [`unifi` Terraform Provider](https://github.com/paultyng/terraform-provider-unifi).",
-    "repository": "https://github.com/pulumiverse/pulumi-unifi",
-    "pluginDownloadURL": "github://api.github.com/pulumiverse",
-    "publisher": "Pulumiverse",
+    "repository": "https://github.com/MaienM/pulumi-unifi",
+    "pluginDownloadURL": "github://api.github.com/MaienM/pulumi-unifi",
+    "publisher": "MaienM",
     "meta": {
         "moduleFormat": "(.*)(?:/[^/]*)"
     },
@@ -54,13 +54,13 @@
             "disableUnionOutputTypes": true,
             "packageDescription": "A Pulumi package for creating and managing Unifi network resources.",
             "packageName": "@maienm/pulumi-unifi",
-            "readme": "\u003e This provider is a derived work of the [Terraform Provider](https://github.com/paultyng/terraform-provider-unifi)\n\u003e distributed under [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/). If you encounter a bug or missing feature,\n\u003e first check the [`pulumi-unifi` repo](https://github.com/pulumiverse/pulumi-unifi/issues); however, if that doesn't turn up anything,\n\u003e please consult the source [`terraform-provider-unifi` repo](https://github.com/paultyng/terraform-provider-unifi/issues).",
+            "readme": "\u003e This provider is a derived work of the [Terraform Provider](https://github.com/paultyng/terraform-provider-unifi)\n\u003e distributed under [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/). If you encounter a bug or missing feature,\n\u003e first check the [`pulumi-unifi` repo](https://github.com/MaienM/pulumi-unifi/issues); however, if that doesn't turn up anything,\n\u003e please consult the source [`terraform-provider-unifi` repo](https://github.com/paultyng/terraform-provider-unifi/issues).",
             "typescriptVersion": ""
         },
         "python": {
             "compatibility": "tfbridge20",
             "packageName": "pulumiverse_unifi",
-            "readme": "\u003e This provider is a derived work of the [Terraform Provider](https://github.com/paultyng/terraform-provider-unifi)\n\u003e distributed under [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/). If you encounter a bug or missing feature,\n\u003e first check the [`pulumi-unifi` repo](https://github.com/pulumiverse/pulumi-unifi/issues); however, if that doesn't turn up anything,\n\u003e please consult the source [`terraform-provider-unifi` repo](https://github.com/paultyng/terraform-provider-unifi/issues).",
+            "readme": "\u003e This provider is a derived work of the [Terraform Provider](https://github.com/paultyng/terraform-provider-unifi)\n\u003e distributed under [MPL 2.0](https://www.mozilla.org/en-US/MPL/2.0/). If you encounter a bug or missing feature,\n\u003e first check the [`pulumi-unifi` repo](https://github.com/MaienM/pulumi-unifi/issues); however, if that doesn't turn up anything,\n\u003e please consult the source [`terraform-provider-unifi` repo](https://github.com/paultyng/terraform-provider-unifi/issues).",
             "requires": {
                 "pulumi": "\u003e=3.0.0,\u003c4.0.0"
             }
