@@ -5,7 +5,7 @@ go 1.19
 replace (
 	github.com/hashicorp/go-getter v1.5.0 => github.com/hashicorp/go-getter v1.4.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 => github.com/pulumi/terraform-plugin-sdk/v2 v2.0.0-20230327102345-3fa930f86570
-	github.com/paultyng/terraform-provider-unifi => github.com/maienm/terraform-provider-unifi v0.41.1000
+	github.com/paultyng/terraform-provider-unifi => github.com/maienm/terraform-provider-unifi v0.41.1003
 	github.com/paultyng/terraform-provider-unifi/shim => ./shim
 )
 

@@ -1683,8 +1683,8 @@ github.com/lyft/protoc-gen-validate v0.0.13/go.mod h1:XbGvPuh87YZc5TdIa2/I4pLk0Q
 github.com/magiconair/properties v1.8.0/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
 github.com/magiconair/properties v1.8.1/go.mod h1:PppfXfuXeibc/6YijjN8zIbojt8czPbwD3XqdrwzmxQ=
 github.com/magiconair/properties v1.8.7 h1:IeQXZAiQcpL9mgcAe1Nu6cX9LLw6ExEHKjN0VQdvPDY=
-github.com/maienm/terraform-provider-unifi v0.41.1000 h1:/aW6TB5qsX8qJtpWomsyClNZRHe1Jzi4FvKuOMlOP3c=
-github.com/maienm/terraform-provider-unifi v0.41.1000/go.mod h1:8a2eJaRe3+6K89LWzX/hkJOcc1mv9CKTXEqJquWO7ro=
+github.com/maienm/terraform-provider-unifi v0.41.1003 h1:333EwOX4G1xkAxgkOI7sIvI0ABhGcMZVk8QcKT0PD0c=
+github.com/maienm/terraform-provider-unifi v0.41.1003/go.mod h1:8a2eJaRe3+6K89LWzX/hkJOcc1mv9CKTXEqJquWO7ro=
 github.com/mailru/easyjson v0.0.0-20160728113105-d5b7844b561a/go.mod h1:C1wdFJiN94OJF2b5HbByQZoLdCWB1Yqtg26g4irojpc=
 github.com/mailru/easyjson v0.0.0-20190614124828-94de47d64c63/go.mod h1:C1wdFJiN94OJF2b5HbByQZoLdCWB1Yqtg26g4irojpc=
 github.com/mailru/easyjson v0.0.0-20190626092158-b2ccc519800e/go.mod h1:C1wdFJiN94OJF2b5HbByQZoLdCWB1Yqtg26g4irojpc=
